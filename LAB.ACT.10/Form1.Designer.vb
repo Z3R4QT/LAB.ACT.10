@@ -65,6 +65,7 @@ Partial Class Form1
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(215, 122)
         Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.ScrollAlwaysVisible = True
         Me.ListBox1.Size = New System.Drawing.Size(228, 121)
         Me.ListBox1.TabIndex = 4
         '
