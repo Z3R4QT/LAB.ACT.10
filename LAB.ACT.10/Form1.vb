@@ -41,9 +41,9 @@ Public Class Form1
             End While
             reader.Close()
 
-            Dim sortedNumbers = From n In numbers
-                                Order By n Ascending
-                                Select n
+            Dim sortedNumbers = From q In numbers
+                                Order By q Ascending
+                                Select q
 
             ListBox1.Items.Clear()
             For Each n As Integer In sortedNumbers
