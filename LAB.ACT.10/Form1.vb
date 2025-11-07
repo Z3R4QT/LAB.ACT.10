@@ -3,7 +3,6 @@ Imports System.Linq
 
 Public Class Form1
     Dim filePath As String = "numbers.txt"
-
     Private Sub btnWrite_Click(sender As Object, e As EventArgs) Handles btnWrite.Click
 
         Dim num As Integer = CInt(NumericUpDown1.Value)
